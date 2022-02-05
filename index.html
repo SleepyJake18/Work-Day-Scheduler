@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./Assets/script.js" />
+    <link rel="stylesheet" href="./Assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -31,15 +31,15 @@
     <div class="container">
       <div class="row justify-content-center">
         <!-- Timeblocks go here -->
-        <div class="border h-100 col-1 bg-light m-2 border-5 border-info rounded justify-content-center d-flex align-items-center">9 AM</div><input type="textarea" class="col-9 h-100 my-2 border border-3 border-danger rounded-pill 9-AM"> <button class="col-1 h-100 m-2 border border-5 border-primary rounded-circle">SAVE</button>
-        <div class="border h-100 col-1 bg-light m-2 border-5 border-info rounded justify-content-center d-flex align-items-center">10 AM</div><input type="textarea" class="col-9 h-100 my-2 border border-3 border-danger rounded-pill 10-AM"> <button class="col-1 h-100 m-2 border border-5 border-primary rounded-circle">SAVE</button>
-        <div class="border h-100 col-1 bg-light m-2 border-5 border-info rounded justify-content-center d-flex align-items-center">11 AM</div><input type="textarea" class="col-9 h-100 my-2 border border-3 border-danger rounded-pill 11-AM"> <button class="col-1 h-100 m-2 border border-5 border-primary rounded-circle">SAVE</button>
-        <div class="border h-100 col-1 bg-light m-2 border-5 border-info rounded justify-content-center d-flex align-items-center">12 PM</div><input type="textarea" class="col-9 h-100 my-2 border border-3 border-danger rounded-pill 12-PM"> <button class="col-1 h-100 m-2 border border-5 border-primary rounded-circle">SAVE</button>
-        <div class="border h-100 col-1 bg-light m-2 border-5 border-info rounded justify-content-center d-flex align-items-center">1 PM</div><input type="textarea" class="col-9 h-100 my-2 border border-3 border-danger rounded-pill 1-PM"> <button class="col-1 h-100 m-2 border border-5 border-primary rounded-circle">SAVE</button>
-        <div class="border h-100 col-1 bg-light m-2 border-5 border-info rounded justify-content-center d-flex align-items-center">2 PM</div><input type="textarea" class="col-9 h-100 my-2 border border-3 border-danger rounded-pill 2-PM"> <button class="col-1 h-100 m-2 border border-5 border-primary rounded-circle">SAVE</button>
-        <div class="border h-100 col-1 bg-light m-2 border-5 border-info rounded justify-content-center d-flex align-items-center">3 PM</div><input type="textarea" class="col-9 h-100 my-2 border border-3 border-danger rounded-pill 3-PM"> <button class="col-1 h-100 m-2 border border-5 border-primary rounded-circle">SAVE</button>
-        <div class="border h-100 col-1 bg-light m-2 border-5 border-info rounded justify-content-center d-flex align-items-center">4 PM</div><input type="textarea" class="col-9 h-100 my-2 border border-3 border-danger rounded-pill 4-PM"> <button class="col-1 h-100 m-2 border border-5 border-primary rounded-circle">SAVE</button>
-        <div class="border h-100 col-1 bg-light m-2 border-5 border-info rounded justify-content-center d-flex align-items-center">5 PM</div><input type="textarea" class="col-9 h-100 my-2 border border-3 border-danger rounded-pill 5-PM"> <button class="col-1 h-100 m-2 border border-5 border-primary rounded-circle">SAVE</button>
+        <div class="border h-100 col-1 bg-light m-2 border-5 border-info rounded justify-content-center d-flex align-items-center">9 AM</div><input type="textarea" class="col-9 h-100 my-2 border border-3 border-danger rounded-pill" id="9AM"> <button class="col-1 h-100 m-2 border border-5 border-primary rounded-circle" id="btn1">SAVE</button>
+        <div class="border h-100 col-1 bg-light m-2 border-5 border-info rounded justify-content-center d-flex align-items-center">10 AM</div><input type="textarea" class="col-9 h-100 my-2 border border-3 border-danger rounded-pill" id="10AM"> <button class="col-1 h-100 m-2 border border-5 border-primary rounded-circle" id="btn2">SAVE</button>
+        <div class="border h-100 col-1 bg-light m-2 border-5 border-info rounded justify-content-center d-flex align-items-center">11 AM</div><input type="textarea" class="col-9 h-100 my-2 border border-3 border-danger rounded-pill" id="11AM"> <button class="col-1 h-100 m-2 border border-5 border-primary rounded-circle" id="btn3">SAVE</button>
+        <div class="border h-100 col-1 bg-light m-2 border-5 border-info rounded justify-content-center d-flex align-items-center">12 PM</div><input type="textarea" class="col-9 h-100 my-2 border border-3 border-danger rounded-pill" id="12PM"> <button class="col-1 h-100 m-2 border border-5 border-primary rounded-circle" id="btn4">SAVE</button>
+        <div class="border h-100 col-1 bg-light m-2 border-5 border-info rounded justify-content-center d-flex align-items-center">1 PM</div><input type="textarea" class="col-9 h-100 my-2 border border-3 border-danger rounded-pill" id="1PM"> <button class="col-1 h-100 m-2 border border-5 border-primary rounded-circle" id="btn5">SAVE</button>
+        <div class="border h-100 col-1 bg-light m-2 border-5 border-info rounded justify-content-center d-flex align-items-center">2 PM</div><input type="textarea" class="col-9 h-100 my-2 border border-3 border-danger rounded-pill" id="2PM"> <button class="col-1 h-100 m-2 border border-5 border-primary rounded-circle" id="btn6">SAVE</button>
+        <div class="border h-100 col-1 bg-light m-2 border-5 border-info rounded justify-content-center d-flex align-items-center">3 PM</div><input type="textarea" class="col-9 h-100 my-2 border border-3 border-danger rounded-pill" id="3PM"> <button class="col-1 h-100 m-2 border border-5 border-primary rounded-circle" id="btn7">SAVE</button>
+        <div class="border h-100 col-1 bg-light m-2 border-5 border-info rounded justify-content-center d-flex align-items-center">4 PM</div><input type="textarea" class="col-9 h-100 my-2 border border-3 border-danger rounded-pill" id="4PM"> <button class="col-1 h-100 m-2 border border-5 border-primary rounded-circle" id="btn8">SAVE</button>
+        <div class="border h-100 col-1 bg-light m-2 border-5 border-info rounded justify-content-center d-flex align-items-center">5 PM</div><input type="textarea" class="col-9 h-100 my-2 border border-3 border-danger rounded-pill" id="5PM"> <button class="col-1 h-100 m-2 border border-5 border-primary rounded-circle" id="btn9">SAVE</button>
       </div>
     </div>
 
